@@ -10,8 +10,8 @@
 * Estar en la pantalla de compra
 
 **Pasos:**
-1 Añadir un articulo al carro
-2 Pulsar reset app state
+1.  Añadir un articulo al carro
+2. Pulsar reset app state
 
 **Esperado: **
 * El carrito se vacie 
