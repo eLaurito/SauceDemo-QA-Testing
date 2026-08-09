@@ -8,7 +8,7 @@
 
 ---
 
-## TC-01 - LOGIN Y CONTRASEÑA VACÍOS
+## TC-01 - Login y contraseña vacios
 
 **Precondición:** 
 * Estar en la pantalla de login.
@@ -96,7 +96,7 @@ PASS
 
 ---
 
-## TC-05 - USUARIO INCORRECTO Y CONTRASEÑA CORRECTA
+## TC-05 - Usuario incorrecto + contraseña correcta
 
 **Precondición:** 
 * Estar en la pantalla de login.
@@ -111,7 +111,7 @@ PASS
 * Impedir el acceso y mostrar un mensaje indicando que las credenciales no son válidas.
 
 **Resultado obtenido:**
-* Mensaje mostrado: 'Epic sadface: Username and password do not match any user in this service'
+* 'Epic sadface: Username and password do not match any user in this service'
 
 **Estado:**
 PASS
