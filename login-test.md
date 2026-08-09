@@ -4,12 +4,11 @@
 * **APP:** WEB SAUCE DEMO
 * **MODULO:** Login
 * **TESTER:** Ezequiel Laurito Nogueira
-* **Versión:** Final
 * **Tipo de prueba:** Manual
 
 ---
 
-## TC-01 - LOGIN Y PASSWORD VACÍOS
+## TC-01 - LOGIN Y CONTRASEÑA VACÍOS
 
 **Precondición:** 
 * Estar en la pantalla de login.
@@ -17,7 +16,7 @@
 **Pasos:**
 
 * Dejar el campo usuario vacío.
-* Dejar el campo password vacío.
+* Dejar el campo contraseña vacío.
 * pulsar la tecla ENTER.
 
 **Resultado esperado:**
@@ -61,11 +60,11 @@ PASS
 **Pasos:**
 
 * Escribir un usuario correcto.
-* Dejar vacío el campo Password.
+* Dejar vacío el campo contraseña.
 * pulsar la tecla ENTER.
 
 **Resultado esperado:**
-* Impedir el acceso, mostrar mensaje de error señalando que el campo Password es obligatorio.
+* Impedir el acceso, mostrar mensaje de error señalando que el campo contraseña es obligatorio.
 
 **Resultado obtenido:**
 * Epic sadface: Password is required
@@ -156,7 +155,7 @@ PASS
 * Permitir el acceso y redirigir al usuario a la página de productos.
 
 **Resultado obtenido:**
-* Es redirigido a /inventory.html sin complicaciones.
+* Es redirigido a /inventory.html correctamente.
 
 **Estado:**
 PASS
